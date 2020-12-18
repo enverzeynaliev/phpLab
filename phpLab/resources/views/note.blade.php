@@ -9,7 +9,7 @@
                     <p>{{ $note->text }}</p>
                 </h5>
                 @auth
-                    @if(Auth::user()->email == "admin@mail.ru")
+                    @if(Auth::user()->email == "PhPain@mail.ru")
                         <div class="card-footer">
                             <a href="{{ route('delete', $note->id) }}" title="delete" class="btn btn-danger">Delete</a>
                         </div>

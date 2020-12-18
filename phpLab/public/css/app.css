@@ -66,13 +66,13 @@ section {
 
 body {
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Consolas", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
-  color: #212529;
+  color: #ffffff;
   text-align: left;
-  background-color: #f8fafc;
+  background-color: #2b2b2b;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -4832,32 +4832,32 @@ input[type=button].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgb(241, 136, 8);
 }
 
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgb(241, 136, 8);
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgb(241, 136, 8);
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgb(241, 136, 8);
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgb(241, 136, 8);
 }
 
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgb(241, 136, 8);
 }
 
 .navbar-light .navbar-toggler {
@@ -4870,38 +4870,38 @@ input[type=button].btn-block {
 }
 
 .navbar-light .navbar-text {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgb(191, 102, 7);
 }
 
 .navbar-light .navbar-text a {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgb(191, 102, 7);
 }
 
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: rgb(191, 102, 7);
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #ffffff;
 }
 
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: #ffffff;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(241, 136, 8);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgb(241, 136, 8);
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
-  color: rgba(255, 255, 255, 0.25);
+  color: rgb(241, 136, 8);
 }
 
 .navbar-dark .navbar-nav .show > .nav-link,
@@ -4925,12 +4925,12 @@ input[type=button].btn-block {
 }
 
 .navbar-dark .navbar-text a {
-  color: #fff;
+  color: #bf6607;
 }
 
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color: #bf6607;
 }
 
 .card {
@@ -4939,9 +4939,9 @@ input[type=button].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: rgb(241, 136, 8);
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgb(241, 136, 8);
   border-radius: 0.25rem;
 }
 
@@ -5002,8 +5002,8 @@ input[type=button].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgb(43, 43, 43);
+  border-bottom: 1px solid rgb(43, 43, 43);
 }
 
 .card-header:first-child {
@@ -5012,8 +5012,8 @@ input[type=button].btn-block {
 
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: rgb(43, 43, 43);
+  border-top: 1px solid rgb(43, 43, 43);
 }
 
 .card-footer:last-child {
@@ -7043,7 +7043,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  background-color: #131313; !important;
 }
 
 .bg-transparent {

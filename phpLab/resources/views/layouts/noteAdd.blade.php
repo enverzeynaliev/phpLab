@@ -35,11 +35,22 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item mr-3"><a class="nav-link" href="{{ route('notes') }}">Notes</a></li>
                     <li class="nav-item mr-3"><a class="nav-link" href="{{ route('add') }}">Add note</a></li>
-                    </ul>
+                    @auth
+                        @if(Auth::user()->email == "admin@mail.ru")
+                            <li class="nav-item mr-3">Now you have power over notes</li>
+                        @endif
+                    @endauth
+                </ul>
 
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">
                     <!-- Authentication Links -->
+                    <form method="GET" action="{{ route('search') }}">
+                        <div style="display: flex; flex-direction:row">
+                            <input class="form-control" type="text" name="title">
+                            <button type="submit" class="btn btn-outline-warning" >Поиск</button>
+                        </div>
+                    </form>
                     @guest
                         @if (Route::has('login'))
                             <li class="nav-item">
